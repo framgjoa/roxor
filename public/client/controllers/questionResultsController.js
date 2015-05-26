@@ -1,4 +1,4 @@
-angular.module('tokki')
+angular.module('roxor')
   .controller('QuestionResultsController', ['$scope', '$state', '$location', function($scope, $state, $location) {
 
   $scope.init = function() {

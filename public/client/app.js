@@ -1,8 +1,8 @@
-angular.module('tokki', ['ui.router', 'ngFx', 'ngAnimate']);
+angular.module('roxor', ['ui.router', 'ngFx', 'ngAnimate']);
 
 // These are the routes that are necessary for the project MVP.
 
-angular.module('tokki')
+angular.module('roxor')
   .config(function($stateProvider, $urlRouterProvider) {
   // If an unknown route is entered, it redirects to the home page.
   $urlRouterProvider.otherwise('/home');

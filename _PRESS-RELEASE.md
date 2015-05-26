@@ -1,26 +1,25 @@
 Agile Insight
 =====================
 ### Using Real-Time Data to Improve Presentations ###
-note: this is not real yet.
 ## Summary ##
-We give presenters better insight into their audience engagement.  This gives the presenter the ability to improve and react on the fly.  They may review the data to identify areas of weakness.
+Roxor provides tools for presenters to gain insight into their audience engagement.  This gives the presenter the ability to improve and react on the fly.  They may review the engagement data to identify areas of weakness.
 
 ## Problem ##
 Events lack real-time engagement data.
 
 ## Solution ##
-We collect real-time participant data to relay to presenters. Data is available for future analysis.  
+We collect real-time participant data to relay to presenters. Data is available for future analysis.
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
 
 ## How to Get Started ##
   - Start up a session
-  
+
   - Share the session with the audience
-  
+
   - Audience can connect by smartphone or computer
-  
+
   - Let the data flow!
 
 ## Customer Quote ##

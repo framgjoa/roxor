@@ -1,4 +1,4 @@
-angular.module('tokki')
+angular.module('roxor')
   .controller('AllQuestionsController', ['$scope', '$state', '$location', 'HostServices', function($scope, $state, $location, HostServices) {
 // TODO: Add loginServices back in
 

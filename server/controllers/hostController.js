@@ -3,7 +3,7 @@ var Session = require('../models/SessionModel');
 var socketUtils = require('../utils/socketUtils');
 var dbUtils = require('../utils/dbUtils');
 
-// Calculates the aggregate stats from cache
+// Calculates the aggregate stats from server-side cache
 // Returns current and average
 exports.calculateStats = function(sessionId, cb) {
   cb({

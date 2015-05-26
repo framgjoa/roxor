@@ -37,3 +37,4 @@ module.exports = {
   },
   sessionSecret: 'your-session-secret-here'
 };
+

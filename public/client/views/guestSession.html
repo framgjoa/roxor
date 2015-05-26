@@ -2,13 +2,12 @@
 <div ng-show="show">
 <!-- This display the question/ prompt -->
 
-
 <!-- Socket.io Messages -->
 <ul id="messages"></ul>
 <script>
 $( document ).ready(function() {
   var socket = io();
- 
+
   socket.on('questionForStudent', function(msg){
     $('#messages').text("");
     $('#messages').append($('<li class="qMessage">').text("Q:  " + msg.question)).append('<p>');
@@ -41,7 +40,7 @@ $( document ).ready(function() {
 </div>
 
 
-<!-- the multiple choice -->
+<!-- Multiple choice -->
 <div id="answerSection" style='display:none;'>
   <h4>Select your Answer&nbsp;below:</h4>
   <div class="ratings" ng-repeat="answer in answers" ng-class="answer.selected" ng-click="submitAnswer(answer)"><h3 id="ratingText">{{answer.value}}</h3></div>

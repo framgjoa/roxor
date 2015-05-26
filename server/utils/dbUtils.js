@@ -1,7 +1,7 @@
 var Firebase = require('firebase');
-var dBRef = new Firebase('https://dazzling-heat-1012.firebaseio.com');
+var dBRef = new Firebase('https://roxor.firebaseio.com');
 
-// Helper methods
+// Helper methods for Firebase database
 var defaultCb = function(message) {
   message = message || 'Failed to access database';
   return function(err) {

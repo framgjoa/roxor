@@ -1,5 +1,4 @@
-// holds vote collection
-// holds aggregate statistics
+// Stores vote collectio and aggregate statistics on server
 
 var Backbone = require('backbone');
 var VotesCollection = require('../collections/VotesCollection').VotesCollection;
@@ -45,6 +44,7 @@ exports.SessionModel = Backbone.Model.extend({
 
       // Lazy way to avoid collisions
       // substring 2 maxes at length of 16
+      // To-do: Improve collision algorithm
       cid: Math.random().toString(36).substring(12)
     };
   },

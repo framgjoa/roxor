@@ -1,5 +1,5 @@
 // Socket helper functions
-angular.module('tokki')
+angular.module('roxor')
   .factory('GuestServices', function($http) {
 
   var session = {
@@ -34,7 +34,7 @@ angular.module('tokki')
     session.socket.on('error', function(err) {
       console.error(err);
     });
-    
+
   };
 
   // Sends vote

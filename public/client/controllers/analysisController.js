@@ -1,4 +1,4 @@
-angular.module('tokki')
+angular.module('roxor')
   .controller('AnalysisController', ['$scope', 'AnalysisServices', function($scope, AnalysisServices) {
 
   $scope.rows = [];

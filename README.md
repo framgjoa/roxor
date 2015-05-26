@@ -1,5 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/desertsharks/tokki.png?label=ready&title=Ready)](https://waffle.io/desertsharks/tokki)
-# Tokki
+# Roxor
 
 #Steps to install:
 

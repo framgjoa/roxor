@@ -1,4 +1,4 @@
-angular.module('tokki')
+angular.module('roxor')
   .controller('HostController', ['$scope', '$interval', 'HostServices', function($scope, $interval, HostServices) {
 
   $scope.sessionId = 'no current session';

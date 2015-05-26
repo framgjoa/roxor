@@ -7,7 +7,7 @@ var stats=[];
 
 
 exports.init = function(sessionId, done) {
-  // Must require io after server is finished loading
+  // Must require io after server has finished loading
   if (!io) {
     io = require('../../server').io;
   }

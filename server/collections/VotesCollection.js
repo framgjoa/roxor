@@ -1,4 +1,4 @@
-// wrapper for all votes belonging to a SessionModel
+// Wrapper for all votes belonging inside a SessionModel
 
 var Backbone = require('backbone');
 var VoteModel = require('../models/VoteModel').VoteModel;

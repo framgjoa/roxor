@@ -1,4 +1,4 @@
-angular.module('tokki')
+angular.module('roxor')
   .controller('GuestController', ['$scope', '$state', '$stateParams', '$location', 'GuestServices', function($scope, $state, $stateParams, $location, GuestServices) {
 
   // Holds rating values

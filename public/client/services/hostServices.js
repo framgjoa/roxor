@@ -1,5 +1,5 @@
 // Socket helper functions
-angular.module('tokki')
+angular.module('roxor')
   .factory('HostServices', function($http) {
 
   var session = {

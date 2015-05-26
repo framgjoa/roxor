@@ -1,4 +1,4 @@
-// holds all ongoing sessions
+// Server-side storage for all ongoing sessions
 
 var Backbone = require('backbone');
 var SessionModel = require('../models/SessionModel').SessionModel;
