@@ -31,10 +31,13 @@ angular.module('tokki')
   var sessionAnalysis = function(cb){
     return $http({
       method: 'GET',
+      //To-do: Research this
       url: session.url + session.hostId + '/' + session.sessionId
+      // $location.path('/newValue').search({key: value});
     })
     .then(function(resp){
       console.log("SessionAnalysis called");
+      //DBUtils.getSessionFromDb(sessionInfo, cb)
       session.data = resp.data;
       cb(resp.data);
     });

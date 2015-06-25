@@ -1,5 +1,10 @@
 <!-- This is where we will show the Graph and data-rich history for the host -->
 
-<h2> Session Stats </h2>
+<h2> Session Stats {{$scope.selectedSessionId}}</h2>
+
+<div ng-app ng-model="tokki">
+<!-- Append charts here -->
+<div  ng-controller="AnalysisController">
+
 
 <!-- This will be filled out more later when we have a better idea of how we want to structure the info. -->
